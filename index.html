@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <img src="surreylogo.png" alt="Banner" width="1800" height="150">
+    <img src="surreylogo.png" alt="Banner" width="1400" height="300">
       <h1><b>ENG0018 Computer Laboratory 2025/26</b></h1>
       <h2>Student URN: 6953868</h2>
     <hr>
-      <h2 style=”font-family:calibri:”><b>Conference paper: ???</b></h2>
+      <h2 style=”font-family:calibri;”><b>Conference paper: Protection against the current erosion of your privacy</b></h2>
     <hr>
     <!style for table>
     <style>
@@ -35,17 +35,104 @@
     </style>
   </head>
   <body style="background-color:#FFFFFF;margin-left:50px;">
+    <table>
+      <tr>
+        <th><h3>Table of contents</h3></th>
+      </tr>
+      <tr>
+        <td><a href="#Abstract">Abstract</a></td>
+      </tr>
+      <tr>
+        <td><a href="#Intro">Introduction</a></td>
+      </tr>
+      <tr>
+        <td><a href="#Password">Password</a></td>
+      </tr>
+      <tr>
+        <td><a href="#VPN">VPN</a></td>
+      </tr>
+      <tr>
+        <td><a href="#Ref">References</a></td>
+      </tr>
+      <tr>
+        <td><a href="#PPT">Presentation</a></td>
+      </tr>
+    </table>
     <h3 id="Abstract">Abstract</h3>
     <hr>
     <p class="ex1">
       <pre>
-        short
-        summary
-        of
-        paper
+        New laws that have been enacted in the UK and the EU are damaging online privacy due to online age verification with 
+        IDs, ways to increase privacy include stronger passwords and VPNs.
       </pre>
     </p>
     <hr>
+    <h3 id="Intro">Introduction</h3>
+    <hr>
+    <p class="ex1">
+      <pre>
+        With the recent enaction of the Online Safety Act[1] and the furthering along of the EU ‘Chat Control’ proposal,[2] 
+        your privacy online is slowly being degraded by using online age verification systems operated by 3rd parties that 
+        can be hacked. Recently, a customer service company (5CA) was hacked and over 70000 photos of government IDs of Discord 
+        (a messaging app marketed for gamers) users were leaked.[3][4] Unfortunately, there will be more of this to come, which 
+        means you will have to take matters into your own hands.
+      </pre>
+    </p>
+    <hr>
+    <h3 id="Password">Password</h3>
+    <hr>
+    <p class="ex1">
+      <pre>
+        The easiest, but arduous, method to protect yourself is by having strong passwords. Users go against their interests 
+        (security) in exchange for simplicity in a password,[5] this means most users are likely to have a less secure password 
+        so they can remember it easier. In 2010 a study was done where most passwords on select websites were only 8 characters long 
+        and only used the alphabet.[6] Stronger passwords are normally either a string of random alphanumeric characters or a few 
+        words with a dash in between each (if you want an even stronger password you could make your own cipher, switching certain 
+        characters for others). This requires the help of a password manager, the ones I found to be good when researching were KeePass 
+        and Bitwarden. KeePass is open source and has many builds for all platforms, Bitwarden is a good cloud-based alternative with 
+        the option of self-hosting if you choose to do so. This should be combined with two-factor authentication (2FA), this asks for 
+        a code that is sent to your email or authenticator app. If your account details for a website get leaked in a data breach, the 
+        hacker would need access to your phone or email as well to be able to access your account.
+      </pre>
+    </p>
+    <hr>
+    <h3 id="VPN">VPN</h3>
+    <hr>
+    <p class="ex1">
+      <pre>
+        A common misconception of virtual private networks (VPNs) are that they make you completely anonymous, what they do is encrypt 
+        your network traffic and change your IP address, this means your internet service provider (ISP) can’t access the private data 
+        transmitted through the VPN. A VPN can help enhance your privacy online and for example help prevent a man-in-the-middle attack 
+        on a public Wi-Fi network. The recommended VPN is Mullvad, in 2023 they were subject to a search warrant from the National Operations 
+        Department (NOA) of the Swedish Police and they left without any customer information.[7] You can also pay in cash or with 
+        selected cryptocurrencies if you choose to do so.
+      </pre>
+    </p>
+    <hr>
+    <h3 id="Ref">References</h3>
+    <hr>
+    <p class="ex1">
+      <pre>
+        [1] UK Government (2023) <i>Online Safety Act 2023</i>, Legislation.gov.uk. Available at: https://www.legislation.gov.uk/ukpga/2023/50/contents.
+        [2] https://cdn.netzpolitik.org/wp-upload/2025/11/2025-11-06_Council_Presidency_LEWP_CSA-R_Presidency-compromise-texts_14092.pdf
+        [3] Booth, R. (2025) <i>Hack of age verification firm may have exposed 70,000 Discord users’ ID photos</i>, the Guardian. The Guardian. 
+        Available at: https://www.theguardian.com/media/2025/oct/09/hack-age-verification-firm-discord-users-id-photos.
+        [4] <i>Update on a Security Incident Involving Third-Party Customer Service</i> | Discord (2025) Discord.com. Available at: 
+        https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service.
+        [5] S. Riley, “Password security: What users know and what they actually do,” <i>Usability News</i>, vol. 8, no. 1, February 2006.
+        [6] Dell’ Amico, M., Michiardi, P. and Roudier, Y. (2010) <i>Password Strength: An Empirical Analysis, IEEE Xplore.</i> Available at: 
+        https://doi.org/10.1109/INFCOM.2010.5461951.
+        [7] <i>Update: The Swedish authorities answered our protocol request</i> (2023) Mullvad VPN. Available at: 
+        https://mullvad.net/en/blog/update-the-swedish-authorities-answered-our-protocol-request.
+
+‌
+
+‌
+      </pre>
+    </p>
+    <hr>
+    <h3 id="PPT">Conference Presentation: Protection against the current erosion of your privacy</h3>
+    <video src="conferencePPT.mp4" width="800" height="450" controls></video>
     <!-- //////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////// Adding last update ////////////////////////////// -->
     <!-- //////////////////////////////////////////////////////////////////////////////// -->
@@ -93,6 +180,38 @@
         }
         // Initial load to display the time on page load
         window.onload = getLastUpdatedTime;
+    </script>
+    <!-- //////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////// Word count function ////////////////////////////// -->
+    <!-- //////////////////////////////////////////////////////////////////////////////// -->
+    <!-- Placeholder for total word count -->
+    <p id="totalWordCount"></p>
+    <hr>
+    <script>
+      // Function to calculate and display word count for a specified section
+      function displayWordCount(sectionId, outputId) {
+        // Get the text content from the specified section
+        const text = document.getElementById(sectionId).textContent;
+        // Split text into words based on spaces and filter out any empty strings
+        const wordArray = text.trim().split(/\s+/);
+        // Count the words
+        const wordCount = wordArray.length;
+        // Return the word count for summing purposes
+        return wordCount;
+      }
+      // Function to calculate and display total word count from selected sections
+      function displayTotalWordCount() {
+        // Calculate word count for each section and accumulate the total
+        const IntroCount = displayWordCount("Intro");
+        const PasswordCount = displayWordCount("Password");
+        const VPNCount = displayWordCount("VPN");
+        // Calculate the sum of all selected sections
+        const totalWordCount = IntroCount + PasswordCount + VPNCount;
+        // Display the total word count
+        document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
+      }
+      // Run the function for specific sections and display total count when the page loads
+      window.onload = displayTotalWordCount;
     </script>
 
   </body>
